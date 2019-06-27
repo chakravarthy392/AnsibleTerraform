@@ -54,7 +54,7 @@ RestartSec=5
 [Install]
 WantedBy=multi-user.target
 ```
- * Extra flags 
+ * Extra flags to handle `Disk space` and `Eviction` issues
 ```bash 
 [Unit]
 Description=Kubernetes Kubelet
