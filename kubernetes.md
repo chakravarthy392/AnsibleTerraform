@@ -160,21 +160,20 @@ kubectl apply taint --all node.kubernetes.io/disk-pressure-
 * Change image tags in yaml file / images on VM
 * Some basic commands:
 ```bash
-To check services run - kubectl get services
-To check deployment run - kubectl get deployments
-To delete services run - kubectl delete svc <service-name>
-To delete deployment run - kubectl delete deployment <deployment-name>
+To check services run    -->   kubectl get services
+To check deployment run  -->   kubectl get deployments
+To delete services run   -->   kubectl delete svc <service-name>
+To delete deployment run -->   kubectl delete deployment <deployment-name>
+To delete all pods in a namespace -->  kubectl delete --all pods --namespace=<namespace>  
    kubectl get nodes
    kubectl describe nodes
    kubectl get pods --all-namespaces
-   kubectl get services
    kubectl get services --all-namespaces
    kubectl describe pod <podName> -n <nameSpace>
    kubectl get deployment --all-namespaces -n kube-system
-   kubectl get services --all-namespaces
    kubectl get deployments --all-namespaces
    kubectl describe deployment calico-kube-controllers -n kube-system
-   kubectl describe node #nodeName
+   kubectl describe node <nodeName>
    kubectl get pod <podName> -n <nameSpace> -o yaml
    kubectl get events
 ```
