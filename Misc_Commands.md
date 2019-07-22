@@ -9,9 +9,9 @@ run :- executes the entire program/ stops at break point.
 
 info break :-  To get the info of break points set.
 
-break #lineNo :- To set break at particular line of given program.
+break <lineNo> :- To set break at particular line of given program.
 
-del break #no :- To delete break points.
+del break <no> :- To delete break points.
 
 pwd :- works from gdb to show the working directory.
 
@@ -23,13 +23,13 @@ next :-  executes one command at a time excluding sub routine calls.
 stepi :- same as step but in machine level.
 nexti :- same as next but in machine level.
 
-print #var / p #var :- prints variable value.
+print <var> / p <var> :- prints variable value.
 
-watch #var :- To watch the changes in variables.
+watch <var> :- To watch the changes in variables.
 
 info watch / info watchpoints :- To get the info of watch points set.
 
-del #watchNo :- To delete watchpoints
+del <watchNo> :- To delete watchpoints
 ```
 ```bash
 Use container with gdb      --->  --cap-add=SYS_PTRACE --security-opt seccomp=unconfined
