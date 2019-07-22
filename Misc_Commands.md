@@ -40,8 +40,8 @@ To use container with gdb     ---> --cap-add=SYS_PTRACE --security-opt seccomp=u
 ## 2. Screen commands
 ```bash
 Check existed screens         ---> screen ls
-Save screen session with name ---> screen -S #session_name
-Resume screen                 ---> screen -r #screen_id
+Save screen session with name ---> screen -S <session_name>
+Resume screen                 ---> screen -r <screen_id>
 ```
 
 ***
