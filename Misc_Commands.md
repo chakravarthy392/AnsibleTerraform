@@ -32,7 +32,7 @@ info watch / info watchpoints :- To get the info of watch points set.
 del #watchNo :- To delete watchpoints
 ```
 ```bash
-To use container with gdb     ---> --cap-add=SYS_PTRACE --security-opt seccomp=unconfined
+Use container with gdb      --->  --cap-add=SYS_PTRACE --security-opt seccomp=unconfined
 ```
 
 ***
@@ -63,7 +63,7 @@ Get full path of a file	       ---> Readlink <file_name>
 ```
 ### a. Firewall commands
 ```bash
-status  ---> systemctl status firewalld.service  #(RHEL/SLES) --->  systemctl status ufw  #(Ubuntu)
+Status  ---> systemctl status firewalld.service  #(RHEL/SLES) --->  systemctl status ufw  #(Ubuntu)
 Start   ---> systemctl start firewalld.service   #(RHEL/SLES) --->  systemctl start ufw   #(Ubuntu)
 Stop    ---> systemctl stop firewalld.service    #(RHEL/SLES) --->  systemctl stop ufw    #(Ubuntu)
 Enable  ---> systemctl enaable firewalld.service #(RHEL/SLES) --->  systemctl enaable ufw #(Ubuntu)
