@@ -1,6 +1,6 @@
 ***
 
-## GDB commands
+## 1. GDB commands
 ```bash
 Apply gdb on binary which has been compiled using the -g option to enable gdb logs.
 
@@ -38,7 +38,7 @@ To use container with gdb     ---> --cap-add=SYS_PTRACE --security-opt seccomp=u
 
 ***
 
-## Screen commands
+## 2. Screen commands
 ```bash
 Check existed screens         ---> screen ls
 Save screen session with name ---> screen -S #session_name
@@ -47,7 +47,7 @@ Resume screen                 ---> screen -r #screen_id
 
 ***
 
-## Docker commands
+## 3. Docker commands
 ```bash
 Pull an image from repo        ---> docker pull #image_name:tag
 Check docker network	         ---> docker network ls
@@ -58,7 +58,22 @@ Load image from tar ball	     ---> docker load < #image_name.tar
 Copy contents from host to container or vice versa  ---> docker cp #source_path container_name:/desti_path
 ```
 
-## Linux commands
+## 4. Linux commands
 ```bash
 Get full path of a file	       ---> Readlink #file_name
 ```
+### a. Firewall commands
+```bash
+status  ---> systemctl status firewalld.service  #(RHEL/SLES) --->  systemctl status ufw  #(Ubuntu)
+Start   ---> systemctl start firewalld.service   #(RHEL/SLES) --->  systemctl start ufw   #(Ubuntu)
+Stop    ---> systemctl stop firewalld.service    #(RHEL/SLES) --->  systemctl stop ufw    #(Ubuntu)
+Enable  ---> systemctl enaable firewalld.service #(RHEL/SLES) --->  systemctl enaable ufw #(Ubuntu)
+Disable ---> systemctl disable firewalld.service #(RHEL/SLES) --->  systemctl disable ufw #(Ubuntu)
+```
+
+
+
+
+
+
+
