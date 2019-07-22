@@ -48,18 +48,18 @@ Resume screen                 ---> screen -r <screen_id>
 
 ## 3. Docker commands
 ```bash
-Pull an image from repo        ---> docker pull #image_name:tag
+Pull an image from repo        ---> docker pull <image_name:tag>
 Check docker network           ---> docker network ls
-Save a container as image      ---> docker commit #container_id  # image_name
-Check container details        ---> docker inspect #container_name
-Save docker images as tar ball ---> docker save --output #image_name.tar #image_name
-Load image from tar ball       ---> docker load < #image_name.tar
-Copy contents from host to container or vice versa  ---> docker cp #source_path container_name:/desti_path
+Save a container as image      ---> docker commit <container_id> <image_name>
+Check container details        ---> docker inspect <container_name>
+Save docker images as tar ball ---> docker save --output <image_name.tar> <image_name>
+Load image from tar ball       ---> docker load < <image_name.tar>
+Copy contents from host to container or vice versa  ---> docker cp <source_path> <container_name:/desti_path>
 ```
 
 ## 4. Linux commands
 ```bash
-Get full path of a file	       ---> Readlink #file_name
+Get full path of a file	       ---> Readlink <file_name>
 ```
 ### a. Firewall commands
 ```bash
