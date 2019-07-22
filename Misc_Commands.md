@@ -40,9 +40,18 @@ To use container with gdb     ---> --cap-add=SYS_PTRACE --security-opt seccomp=u
 
 * Screen commands
 ```bash
-To check existed screens      ---> screen ls
+Check existed screens      ---> screen ls
 Save screen session with name ---> screen -S #session_name
 Resume screen                 ---> screen -r #screen_id
 ```
 
 ***
+
+* Docker commands
+```bash
+Pull an image from repo        ---> docker pull #image_name:tag
+Save a container as image      ---> docker commit #container_id  # image_name
+Check container details        ---> docker inspect #container_name
+Save docker images as tar ball ---> docker save --output #image_name.tar #image_name
+Copy contents from host to container or vice versa  ---> docker cp #source_path container_name:/desti_path
+```
