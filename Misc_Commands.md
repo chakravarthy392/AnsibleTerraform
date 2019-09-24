@@ -55,12 +55,18 @@ Check container details        ---> docker inspect <container_name>
 Save docker images as tar ball ---> docker save --output <image_name.tar> <image_name>
 Load image from tar ball       ---> docker load < <image_name.tar>
 Copy contents from host to container or vice versa  ---> docker cp <source_path> <container_name:/desti_path>
+Provides information about the disk space occupied by your containers, images, volumes etc  ---> docker system df 
+Helps to remove all the unused containers, volumes and dangling images  ---> docker system prune
+Information about the history of images / layers used to build the same ---> docker image history <image_name>
 ```
 
 ## 4. Linux commands
 ```bash
-Get full path of a file	       ---> Readlink <file_name>
+Get full path of a file ---> Readlink <file_name>
+Find socket files       ---> sudo find / -type s
+Format go files         ---> Go fmt <filename>
 ```
+
 ### a. Firewall commands
 ```bash
 Status  ---> systemctl status firewalld.service  #(RHEL/SLES) --->  systemctl status ufw  #(Ubuntu)
