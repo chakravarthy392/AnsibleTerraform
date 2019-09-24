@@ -40,7 +40,9 @@ Use container with gdb      --->  --cap-add=SYS_PTRACE --security-opt seccomp=un
 ## 2. Screen commands
 ```bash
 Check existed screens         ---> screen ls
+
 Save screen session with name ---> screen -S <session_name>
+
 Resume screen                 ---> screen -r <screen_id>
 ```
 
@@ -49,30 +51,47 @@ Resume screen                 ---> screen -r <screen_id>
 ## 3. Docker commands
 ```bash
 Pull an image from repo        ---> docker pull <image_name:tag>
+
 Check docker network           ---> docker network ls
+
 Save a container as image      ---> docker commit <container_id> <image_name>
+
 Check container details        ---> docker inspect <container_name>
+
 Save docker images as tar ball ---> docker save --output <image_name.tar> <image_name>
+
 Load image from tar ball       ---> docker load < <image_name.tar>
+
 Copy contents from host to container or vice versa  ---> docker cp <source_path> <container_name:/desti_path>
+
 Provides information about the disk space occupied by your containers, images, volumes etc  ---> docker system df 
+
 Helps to remove all the unused containers, volumes and dangling images  ---> docker system prune
+
 Information about the history of images / layers used to build the same ---> docker image history <image_name>
+
+To build docker image without using cache	---> Docker build –no-cache 
 ```
 
 ## 4. Linux commands
 ```bash
 Get full path of a file ---> Readlink <file_name>
+
 Find socket files       ---> sudo find / -type s
+
 Format go files         ---> Go fmt <filename>
 ```
 
 ### a. Firewall commands
 ```bash
 Status  ---> systemctl status firewalld.service  #(RHEL/SLES) --->  systemctl status ufw  #(Ubuntu)
+
 Start   ---> systemctl start firewalld.service   #(RHEL/SLES) --->  systemctl start ufw   #(Ubuntu)
+
 Stop    ---> systemctl stop firewalld.service    #(RHEL/SLES) --->  systemctl stop ufw    #(Ubuntu)
+
 Enable  ---> systemctl enaable firewalld.service #(RHEL/SLES) --->  systemctl enaable ufw #(Ubuntu)
+
 Disable ---> systemctl disable firewalld.service #(RHEL/SLES) --->  systemctl disable ufw #(Ubuntu)
 ```
 ### b. Git commands
