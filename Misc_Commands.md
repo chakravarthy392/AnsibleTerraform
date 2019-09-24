@@ -75,7 +75,10 @@ Stop    ---> systemctl stop firewalld.service    #(RHEL/SLES) --->  systemctl st
 Enable  ---> systemctl enaable firewalld.service #(RHEL/SLES) --->  systemctl enaable ufw #(Ubuntu)
 Disable ---> systemctl disable firewalld.service #(RHEL/SLES) --->  systemctl disable ufw #(Ubuntu)
 ```
-
+### b. Git commands
+```bash
+To verify files with specific text in git repo	--->  git grep -l <textToSearch>
+```
 
 
 
