@@ -79,7 +79,9 @@ Disable ---> systemctl disable firewalld.service #(RHEL/SLES) --->  systemctl di
 ```bash
 To verify files with specific text in git repo	--->  git grep -l <textToSearch>
 ```
-
+```
+Format (indentation) may gets changed when we copy content to git files, better to add them from CLI by accessing repo using token (settings --> dev settings --> access tokens --> create token) and commit.
+```
 
 
 
