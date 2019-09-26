@@ -51,3 +51,9 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
     yield, in, is, global, nonlocal
  
 
+## II. Input/Output
+ 1. Taking input in Python
+   ```   
+     raw_input ( prompt ) -- 2.x
+     input ( prompt )     -- 3.x   --> stores any input to string, need to typecast for further use.
+   ```  
