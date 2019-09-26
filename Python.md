@@ -26,3 +26,5 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
     # is used for single line comment in Python
     """ this is a comment """ is used for multi line comments
 ```
+
+`input()` is used to get input from the console, need to specify the datatype if we need to perform operations on the read data.
