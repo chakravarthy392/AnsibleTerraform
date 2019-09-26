@@ -82,7 +82,11 @@ To view binary files  --->  xxd -b file
 
 To extract .war file content  --->  jar –xvf #warname.war
 
-To extract tar.bz2 files	    --->  tar xjvf #file.tar.bz2
+To extract tar.bz2 files  --->  tar xjvf #file.tar.bz2
+
+Create tar.gz from files  --->   tar -zcvf tar-archive-name.tar.gz source-folder-name
+
+Check nat rules from ip	  --->  iptables -L -t nat
 
 ```
 
@@ -107,6 +111,11 @@ CIDR and network range	--->  whois #ip_addr
 To check processor bits  ---> 	getconf LONG_BIT
 
 To know the version of OS ---> cat /etc/os-release  --->  cat /etc/redhat-release 
+
+To check ip address --->  ip addr show
+
+To get heapsize	--->   java -XX:+PrintFlagsFinal -version | grep -iE 'HeapSize|PermSize|ThreadStackSize'
+
 ```
 
 ### 5. Resolve issues
@@ -114,6 +123,11 @@ Resolve Java heap space error
 ```
 export _JAVA_OPTIONS="-Xmx2048m"                 
 export JVM_ARGS="-Xmx2048m -XX:MaxPermSize=1024m"
+```
+To free cache memory in container/vm	
+```
+watch -n 20 sudo free -mh&& sudo sync && sudo sh -c 'echo 3 > /proc/sys/vm/drop_caches' && sudo free -mh
+sudo sh -c "sync; echo 3 > /proc/sys/vm/drop_caches"
 ```
 
 ### a. Firewall commands
