@@ -67,3 +67,6 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
      using split
      eg: x, y, z = input("Enter a three value: ").split() --> space is considered as separator by default
    ```
+
+
+## III. Data Types
