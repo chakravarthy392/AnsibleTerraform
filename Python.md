@@ -39,3 +39,11 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
 3. Python – The new generation Language :-
 
    Concise, Interpreted language, Rich library support, Platform independent.
+ 
+ 4. Differences between Python 2.x and 3.x :-
+ 
+    If we are planning Python 3.x support in 2.x code, we can use_future_ imports it in the code.
+    
+ 5. Keywords in Python | Set 1
+ 
+
