@@ -44,6 +44,10 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
  
     If we are planning Python 3.x support in 2.x code, we can use_future_ imports it in the code.
     
- 5. Keywords in Python | Set 1
+ 5. Keywords in Python | Set 1 & Set 2
+ 
+    True, False, None, and, or, not, assert, break, continue, def, if, elif, else, del
+    try, except, finally, raise, while, pass, for, import, from, as, lambda, return
+    yield, in, is, global, nonlocal
  
 
