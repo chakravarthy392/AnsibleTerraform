@@ -82,6 +82,8 @@ To view binary files  --->  xxd -b file
 
 To extract .war file content  --->  jar –xvf #warname.war
 
+To extract tar.bz2 files	    --->  tar xjvf #file.tar.bz2
+
 ```
 
 ## 4. Linux commands
@@ -103,6 +105,8 @@ Get full path of a file --->  Readlink #filename
 CIDR and network range	--->  whois #ip_addr
 
 To check processor bits  ---> 	getconf LONG_BIT
+
+To know the version of OS ---> cat /etc/os-release  --->  cat /etc/redhat-release 
 ```
 
 ### 5. Resolve issues
