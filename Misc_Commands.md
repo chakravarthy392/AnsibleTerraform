@@ -71,6 +71,17 @@ Helps to remove all the unused containers, volumes and dangling images  ---> doc
 Information about the history of images / layers used to build the same ---> docker image history <image_name>
 
 To build docker image without using cache	---> Docker build –no-cache 
+
+To load image from tar ball  --->  docker load < #rhel7.3.tar
+
+To save docker images as tar ball  ---> docker save #img name > #name.tar ---> docker save --output busybox.tar busybox
+
+Set ulimit for host	Change hard and soft nofile values in : /etc/security/limits.conf
+
+To view binary files  --->  xxd -b file
+
+To extract .war file content  --->  jar –xvf #warname.war
+
 ```
 
 ## 4. Linux commands
@@ -85,6 +96,11 @@ Softlink                ---> ln -s /path/to/dir /path/to/symlink  ---> ln -fs /m
 
 Check executable file using find	---> find / -iname "yaml" -type f -executable -print
 
+CPU info --->	lscpu
+
+Get full path of a file --->  Readlink #filename
+
+CIDR and network range	--->  whois #ip_addr
 ```
 
 ### 5. Resolve issues
@@ -109,6 +125,9 @@ Disable ---> systemctl disable firewalld.service #(RHEL/SLES) --->  systemctl di
 ### b. Git commands
 ```bash
 To verify files with specific text in git repo	--->  git grep -l <textToSearch>
+To check diff b/w cloned and existed files	--->  git diff
+To check which branch is installed	--->  git status -v
+
 ```
 ```
 Format (indentation) may gets changed when we copy content to git files, better to add them from CLI by accessing repo using token (settings --> dev settings --> access tokens --> create token) and commit.
