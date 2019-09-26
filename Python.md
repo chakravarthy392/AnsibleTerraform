@@ -57,3 +57,13 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
      raw_input ( prompt ) -- 2.x
      input ( prompt )     -- 3.x   --> stores any input to string, need to typecast for further use.
    ```  
+  2. Taking input from console in Python  
+   ```  
+     input1 = input()   --> watis until user gives the input from the console.
+   ```
+   
+  3. Taking multiple inputs from user in Python
+   ```  
+     using split
+     eg: x, y, z = input("Enter a three value: ").split() --> space is considered as separator by default
+   ```
