@@ -28,3 +28,7 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
 ```
 
 `input()` is used to get input from the console, need to specify the datatype if we need to perform operations on the read data.
+Python used the keyword `def` to define a function.  ` eg:- def hello(): `
+
+Python has a very rich module library that has several functions to do many tasks. 
+`import` keyword is used to import a particular module into your python code. 
