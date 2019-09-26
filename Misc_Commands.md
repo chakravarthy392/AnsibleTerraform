@@ -80,6 +80,18 @@ Get full path of a file ---> Readlink <file_name>
 Find socket files       ---> sudo find / -type s
 
 Format go files         ---> Go fmt <filename>
+
+Softlink                ---> ln -s /path/to/dir /path/to/symlink  ---> ln -fs /mnt/faas2/docker /var/lib/docker
+
+Check executable file using find	---> find / -iname "yaml" -type f -executable -print
+
+```
+
+### 5. Resolve issues
+Resolve Java heap space error	
+```
+export _JAVA_OPTIONS="-Xmx2048m"                 
+export JVM_ARGS="-Xmx2048m -XX:MaxPermSize=1024m"
 ```
 
 ### a. Firewall commands
