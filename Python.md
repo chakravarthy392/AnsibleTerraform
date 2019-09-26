@@ -15,23 +15,26 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
    
    Python for its scope doesn’t depend on the braces ( { } ), instead it uses indentation for its scope.
    In other programming languages like C, C++ and Java, you will need to declare the type of variables but in Python you don’t need to do that.
-```
+   
+   ```
    eg:-   mynum=4.5
           print(mynum)      
 
           o/p : 4.5
-```
+   ```
+   
    Python have 4 types of built in Data Structures namely List, Dictionary, Tuple and Set.
-```   
-    # is used for single line comment in Python
-    """ this is a comment """ is used for multi line comments
-```
+   
+   ```   
+   # is used for single line comment in Python
+   """ this is a comment """ is used for multi line comments
+   ```
 
-`input()` is used to get input from the console, need to specify the datatype if we need to perform operations on the read data.
-Python used the keyword `def` to define a function.  ` eg:- def hello(): `
+   `input()` is used to get input from the console, need to specify the datatype if we need to perform operations on the read data.
+   Python used the keyword `def` to define a function.  ` eg:- def hello(): `
 
-Python has a very rich module library that has several functions to do many tasks. 
-`import` keyword is used to import a particular module into your python code. 
+   Python has a very rich module library that has several functions to do many tasks. 
+   `import` keyword is used to import a particular module into your python code. 
 
 3. Python – The new generation Language :-
 
