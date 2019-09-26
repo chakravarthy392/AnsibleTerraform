@@ -101,6 +101,8 @@ CPU info --->	lscpu
 Get full path of a file --->  Readlink #filename
 
 CIDR and network range	--->  whois #ip_addr
+
+To check processor bits  ---> 	getconf LONG_BIT
 ```
 
 ### 5. Resolve issues
