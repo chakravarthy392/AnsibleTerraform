@@ -32,3 +32,7 @@ Python used the keyword `def` to define a function.  ` eg:- def hello(): `
 
 Python has a very rich module library that has several functions to do many tasks. 
 `import` keyword is used to import a particular module into your python code. 
+
+3. Python – The new generation Language :-
+
+   Concise, Interpreted language, Rich library support, Platform independent.
