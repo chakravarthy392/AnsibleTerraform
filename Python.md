@@ -10,3 +10,14 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
 1. Python Language Introduction :-
 
    In a Python script to print something on the console print() function is used – it simply prints out a line ( and also includes a newline unlike in C ). 
+   
+2. Python3 basics :-
+   
+   Python for its scope doesn’t depend on the braces ( { } ), instead it uses indentation for its scope.
+   In other programming languages like C, C++ and Java, you will need to declare the type of variables but in Python you don’t need to do that.
+```
+   eg:-   mynum=4.5
+          print(mynum)      
+
+          o/p : 4.5
+```
