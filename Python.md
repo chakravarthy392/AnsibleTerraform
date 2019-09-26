@@ -21,3 +21,8 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
 
           o/p : 4.5
 ```
+   Python have 4 types of built in Data Structures namely List, Dictionary, Tuple and Set.
+```   
+    # is used for single line comment in Python
+    """ this is a comment """ is used for multi line comments
+```
