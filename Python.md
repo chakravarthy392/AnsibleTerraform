@@ -54,6 +54,10 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
  
     A namespace is a system to have a unique name for each and every object in Python.
     A lifetime of a namespace depends upon the scope of objects.
+    
+ 7. Statement, Indentation and Comment in Python :-
+
+    One of the distinctive features of Python is its use of indentation to highlight the blocks of code. Whitespace is used for indentation.
 
 ## II. Input/Output
  1. Taking input in Python
