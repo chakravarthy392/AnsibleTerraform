@@ -48,8 +48,12 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
  
     True, False, None, and, or, not, assert, break, continue, def, if, elif, else, del
     try, except, finally, raise, while, pass, for, import, from, as, lambda, return
-    yield, in, is, global, nonlocal
+    yield, in, is, global, nonlocal.
+    
+ 6. Namespaces and scope :-
  
+    A namespace is a system to have a unique name for each and every object in Python.
+    A lifetime of a namespace depends upon the scope of objects.
 
 ## II. Input/Output
  1. Taking input in Python
