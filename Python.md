@@ -81,6 +81,15 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
      using split
      eg: x, y, z = input("Enter a three value: ").split() --> space is considered as separator by default
    ```
-
+  4. Output using print() function
+  
+     Syntax: print(value(s), sep= ‘ ‘, end = ‘\n’, file=file, flush=flush)
+     values will be converted to string before printing.
+   ```  
+     eg:  print("geeks", end =" ") 
+          print("geeksforgeeks") 
+          
+          o/p : geeks geeksforgeeks
+   ```
 
 ## III. Data Types
