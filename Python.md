@@ -84,7 +84,7 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
   4. Output using print() function
   
      Syntax: print(value(s), sep= ‘ ‘, end = ‘\n’, file=file, flush=flush)
-     values will be converted to string before printing.
+     values will be converted to string before printing. by default end value is always '\n' , to print 2 objects with space only we need to give end=" ".
    ```  
      eg:  print("geeks", end =" ") 
           print("geeksforgeeks") 
