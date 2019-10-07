@@ -58,6 +58,12 @@ Hacker rank      ---> https://www.hackerrank.com/domains/python
  7. Statement, Indentation and Comment in Python :-
 
     One of the distinctive features of Python is its use of indentation to highlight the blocks of code. Whitespace is used for indentation.
+    
+ 8. Structuring Python Programs :-
+ 
+     Implicit line continuation :- parentheses (‘(‘), brackets (‘[‘), or curly braces (‘{‘) is presumed to be incomplete until all matching parentheses, square brackets, and curly braces have been encountered.
+
+     Explicit line continuation :- Backslash (\) is used to indicate that a statement spans more than one line (as in shell).
 
 ## II. Input/Output
  1. Taking input in Python
