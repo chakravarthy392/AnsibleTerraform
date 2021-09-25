@@ -1,0 +1,55 @@
+---
+  - hosts: all
+    gather_facts: false
+    become: yes
+    tasks:
+      - name: Install httpd
+        yum:
+          name: httpd
+          state: present
+        notify:
+          - start httpd
+    handlers:
+      - name: start httpd
+        service:
+          name: httpd
+          state: started
+
+
+===================================================
+
+
+
+---
+  - hosts: all
+    gather_facts: false
+    become: yes
+    tasks:
+      - name: Install httpd
+        yum:
+          name: httpd
+          state: present
+        notify:
+          - start httpd
+===================================================
+
+
+
+
+
+---
+  - hosts: all
+    gather_facts: false
+    become: yes
+    tasks:
+      - name: uninstall httpd
+        yum:
+          name: httpd
+          state: absent
+        notify:
+          - stop httpd
+    handlers:
+      - name: stop httpd
+        service:
+          name: httpd
+          state: absent
